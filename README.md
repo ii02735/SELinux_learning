@@ -94,7 +94,7 @@ Rappelons que SELinux peut aussi gérer les ***processus***, il est possible d'a
 ```
 [root@centos ~]# semanage port -l | grep [h]ttp
 http_cache_port_t	tcp 	8080, 8118, 8123,...
-http_cache_port_t	udp	 3130
+http_cache_port_t	udp	3130
 http_port_t		tcp 	80, 81, 443
 ...
 ```
