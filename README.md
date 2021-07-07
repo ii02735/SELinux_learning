@@ -216,6 +216,8 @@ Ou si on souhaite récupérer un contexte depuis un autre dossier (à l'instar d
 
 Mais quel est la différence entre les deux commandes ?
 
-Puisqu'on inidique à SELinux, un contexte par défaut à un dossier, ce dernier ne sera pas affecté par `restorecon`, contrairement dans le cas de `chcon`.
+Puisqu'on indique à SELinux, un contexte par défaut à un dossier, ce dernier ne sera pas affecté par `restorecon`, contrairement dans le cas de `chcon`.
 
-Donc `semanage` permet d'affecter un nouveau contexte de manière **permanente**, tandis que pour `chcon`, cela est temporaire.**Toutes les informations ont été testées sur une VM Centos 7.**
+Donc `semanage` permet d'affecter un nouveau contexte de manière **permanente**, tandis que pour `chcon`, cela est temporaire.
+
+**Toutes les informations ont été testées sur une VM Centos 7.**
